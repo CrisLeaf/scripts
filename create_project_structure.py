@@ -50,6 +50,9 @@ if __name__ == '__main__':
     project_name = input('Project name: ')
     
     project_path = Path(location) / project_name
+    
+    print()
     create_project_structure(project_path)
+    print()
     
     print('Project structure created successfully')
